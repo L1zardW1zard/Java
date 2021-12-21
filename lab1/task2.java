@@ -6,10 +6,10 @@ public class TaskTwo {
         int[] someArray = fillArray(0, 10, 2);
         printArray(someArray);
 
-        int[] someArray_2 = fillArray(0, 25, 4);
+        int[] someArray_2 = fillArray(0, 20, 10/10);
         printArray(someArray_2);
 
-        int[] someArray_3 = fillArray(-5, 19, 3);
+        int[] someArray_3 = fillArray(-5, 55, 5);
         printArray(someArray_3);
     }
 
@@ -32,5 +32,4 @@ public class TaskTwo {
         }
         System.out.println("");
     }
-
 }
