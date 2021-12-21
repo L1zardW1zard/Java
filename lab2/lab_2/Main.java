@@ -52,5 +52,5 @@ public class Main {
 
 class TestClass implements Serializable {
     public final String name = "Valentyn";
-    public final byte age = 19;
+    public final byte age = 20;
 }
