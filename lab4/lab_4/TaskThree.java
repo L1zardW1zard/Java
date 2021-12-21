@@ -9,7 +9,7 @@ public class TaskThree {
     private static final char END_RANGE = 't';
 
     public static void main(String[] args) {
-        String str = "ak-47";
+        String str = "abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz";
 
         String resultStr  = Stream.of(str.split("")).map(item -> {
             if (item.charAt(0) >= START_RANGE && item.charAt(0) <= END_RANGE) {
@@ -19,7 +19,7 @@ public class TaskThree {
         }).collect(Collectors.joining());
 
         System.out.println(str);
+        System.out.println("\n");
         System.out.println(resultStr);
     }
-
 }
